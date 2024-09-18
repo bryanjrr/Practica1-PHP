@@ -2,6 +2,9 @@
 
 $numero = rand(1, 10);
 
+echo "El numero es $numero";
+echo "<br>";
+
 switch ($numero) {
     case 1:
         $numero = "Lunes";
@@ -30,5 +33,10 @@ switch ($numero) {
         break;
 }
 
-echo "Hoy es $numero";
+if($numero < 1 || $numero > 7){
+    echo "No corresponde a ningun dia";
+}else{
+    echo "Hoy es $numero";
+}
+
 
