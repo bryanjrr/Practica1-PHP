@@ -18,9 +18,6 @@ echo "<br>";
 $resta = $n1 - $n2;
 echo "Resta: $resta";
 echo "<br>";
-$multiplicacion = $n1 * $n2;
-echo "Multiplicacion: $multiplicacion";
-echo "<br>";
 $division = $n1 / $n2;
 echo "Division: $division";
 echo "<br>";
@@ -53,9 +50,7 @@ if($n1 > 1 && $n2 > 1){
     echo"base $n1";
     echo"<br>";
     echo"altura $n2";
-    echo"<br>";
-    echo "El area de un triangulo es $area";
-
+    echo "<br> El area de un triangulo es $area";
 
 }
 
