@@ -68,8 +68,6 @@ echo "Ejercicio 6:";
 echo "<br><br>";
 
 $calificaciones = [
-    "Miguel" => 5,
-    "Luis" => 7,
     "Marta" => 10,
     "Isabel" => 8,
     "Luis"=> 7,
