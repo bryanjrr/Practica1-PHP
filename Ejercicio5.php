@@ -7,8 +7,6 @@ $contadorImpares = 0;
 
 while ($sumaNumero <= 100) {
 
-
-
     $numero = rand(0, 20);
 
     if ($numero % 2 == 0) {
