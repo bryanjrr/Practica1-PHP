@@ -5,9 +5,7 @@ $contadorPares = 0;
 $contadorImpares = 0;
 
 
-while ($sumaNumero <= 100) {
-
-
+while ($sumaNumero >= 100) {
 
     $numero = rand(0, 20);
 
