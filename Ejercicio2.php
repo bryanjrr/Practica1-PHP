@@ -2,41 +2,43 @@
 
 $numero = rand(1, 10);
 
-echo "El numero es $numero";
+echo "El número es $numero";
 echo "<br>";
+
+$dia = ""; // Nueva variable para almacenar el día
 
 switch ($numero) {
     case 1:
-        $numero = "Lunes";
+        $dia = "Lunes";
         break;
     case 2:
-        $numero = "Martes";
+        $dia = "Martes";
         break;
     case 3:
-        $numero = "Miercoles";
+        $dia = "Miércoles";
         break;
     case 4:
-        $numero = "Jueves";
+        $dia = "Jueves";
         break;
     case 5:
-        $numero = "Viernes";
-
+        $dia = "Viernes";
         break;
     case 6:
-        $numero = "Sabado";
+        $dia = "Sábado";
         break;
     case 7:
-        $numero = "Domingo";
+        $dia = "Domingo";
         break;
     default:
-        $numero = "No corresponde a ningun dia";
+        $dia = "No corresponde a ningún día";
         break;
 }
 
-if($numero < 1 || $numero > 7){
-    echo "No corresponde a ningun dia";
-}else{
-    echo "Hoy es $numero";
+if($numero < 1 || $numero > 7) {
+    echo "No corresponde a ningún día";
+} else {
+    echo "Hoy es $dia";
 }
 
+?>
 
