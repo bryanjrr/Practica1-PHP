@@ -9,22 +9,22 @@ if (!isset($_SESSION["array"])) {
 
 if (isset($_POST["modificar"])) {
     if (!empty($_POST["valor"]) || $_POST["valor"] == 0) {
-        echo "MODIFICAR";
+/*         echo "MODIFICAR"; */
 
         $posicion = $_SESSION["posicioness"] = $_POST["posiciones"];
 
         $valor = $_SESSION["valorr"] = $_POST["valor"];
 
 
-        echo "Posicion: " . $_SESSION["posicioness"] . "<br><br>";
-        echo "Valor: " . $valor . "<br>";
+/*         echo "Posicion: " . $_SESSION["posicioness"] . "<br><br>";
+        echo "Valor: " . $valor . "<br>"; */
 
         $_SESSION["array"][$posicion] = $valor;
 
 
-        echo "<pre>";
+/*         echo "<pre>";
         var_dump($_SESSION["array"]);
-        echo "</pre>";
+        echo "</pre>"; */
     }
 } else if (isset($_POST["media"])) {
     $media = array_sum($_SESSION["array"]) / count($_SESSION["array"]);
